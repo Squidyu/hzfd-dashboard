@@ -1,0 +1,41 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "consistent-return": [0],
+    "react/forbid-prop-types": [0],
+    "global-require": [1],
+    "import/prefer-default-export": [0],
+    "react/jsx-no-bind": [0],
+    "react/prop-types": [0],
+    "react/prefer-stateless-function": [0],
+    "no-else-return": [0],
+    "no-restricted-syntax": [0],
+    "import/no-extraneous-dependencies": [0],
+    "no-use-before-define": [0],
+    "jsx-a11y/no-static-element-interactions": [0],
+    "import/no-unresolved": [0],
+    "no-console": "warn",
+    "no-alert": "warn",
+    "no-debugger": "error",
+    "no-cond-assign": ["error", "always"],
+    "no-constant-condition": "error",
+    "no-dupe-args": "error",
+    "no-dupe-keys": "error",
+    "no-duplicate-case": "error",
+    "no-empty": ["error", { "allowEmptyCatch" : true }],
+    "no-ex-assign": "error",
+    "no-unreachable": "error",
+    "use-isnan": "error",
+    "valid-typeof": "error",
+    "no-self-assign": "error"
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  }
+}
